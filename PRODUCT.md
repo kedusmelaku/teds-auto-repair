@@ -37,7 +37,7 @@ Verified facts (Google listing, Nov 2026): Ted's Auto Repair, 400 W Northwest Hw
 ## Brand Commitments
 
 - Feel: a trustworthy neighborhood garage that has been around for decades. Plainspoken, solid, easy to read.
-- Must not resemble the bakery spec site this repo was copied from, nor read as cartoonish (user rejected two earlier mockups for that).
+- Must not read as cartoonish or resemble an earlier spec site (the user rejected early mockups for that).
 - Avoid auto cliches: chrome, flames, racing stripes, carbon fiber, stock photos of mechanics in clean uniforms, blue tech gradients.
 - No em dashes in site copy.
 

@@ -37,24 +37,30 @@
   <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
   <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
   <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.4 7 .7-5.3 4.7 1.6 6.9L12 17.6l-6.2 3.6 1.6-6.9L2.1 9.6l7-.7z"/></symbol>
-  <symbol id="i-oil" viewBox="0 0 24 24"><path d="M3 9h9l3 3h3l3-2v1l-4 6H5a2 2 0 0 1-2-2V9z"/><path d="M7 9V6h3v3M3 11l-1-1"/><path d="M20 18.5c0 .8-.6 1.5-1.4 1.5s-1.4-.7-1.4-1.5c0-.9 1.4-2.5 1.4-2.5s1.4 1.6 1.4 2.5z"/></symbol>
+  <symbol id="i-oil" viewBox="0 0 24 24"><path d="M12 3s6 7 6 11a6 6 0 0 1-12 0c0-4 6-11 6-11z"/><path d="M9.5 14.5a2.5 2.5 0 0 0 2.5 2.5"/></symbol>
   <symbol id="i-brake" viewBox="0 0 24 24"><circle cx="11" cy="13" r="8"/><circle cx="11" cy="13" r="2.5"/><path d="M11 7.5v.01M6 11v.01M16 11v.01M7.5 17.5v.01M14.5 17.5v.01"/><path d="M15 3.6a10 10 0 0 1 6 7.4h-3.2a7 7 0 0 0-3.3-4.3z"/></symbol>
   <symbol id="i-gauge" viewBox="0 0 24 24"><path d="M3.5 17a9 9 0 1 1 17 0"/><path d="M12 14l4-5"/><circle cx="12" cy="14" r="1.5"/><path d="M6.5 12.5h1M12 6.5v1M16.5 12.5h1"/></symbol>
   <symbol id="i-engine" viewBox="0 0 24 24"><path d="M4 9h2V7h3V5h6v2h2l2 2h2v7h-2l-2 2H8l-2-2H4z"/><path d="M1.5 10v5M9 11h6M12 11v4"/></symbol>
 </svg>
 
 <header class="hero" id="top">
-  <div class="wrap">
-    <p class="mark" translate="no">Ted’s Auto Repair</p>
-    <h1>Honest car repair in Arlington&nbsp;Heights.</h1>
-    <p class="lede">Ted tells you what’s worth fixing and what isn’t. Families have counted on that for decades.</p>
+  <div class="topbar">
+    <div class="wrap topbar-in">
+      <a class="wordmark" href="#top" translate="no">Ted’s Auto Repair</a>
+      <a class="topbar-phone" href="tel:+18472532886"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>(847) 253-2886</a>
+    </div>
+  </div>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <h1>Honest car repair in Arlington Heights.</h1>
+      <p class="lede">Ted tells you what’s worth fixing and what isn’t. Families have counted on that for decades.</p>
+      <p class="where"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>400 W Northwest Hwy, Unit D</p>
 
-    <div class="hero-actions">
-      <div class="stack">
-        <a class="btn btn-gold" id="hero-call" href="tel:+18472532886"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>Call (847) 253-2886</a>
-        <a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=400+W+Northwest+Hwy+Unit+D%2C+Arlington+Heights%2C+IL+60004"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>Get directions</a>
-      </div>
-
+      <div class="hero-actions">
+        <div class="stack">
+          <a class="btn btn-gold" id="hero-call" href="tel:+18472532886"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>Call (847) 253-2886</a>
+          <a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=400+W+Northwest+Hwy+Unit+D%2C+Arlington+Heights%2C+IL+60004"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>Get directions</a>
+        </div>
       <a class="plaque" href="https://www.google.com/maps/place/?q=place_id:ChIJaavEFem6D4gRy5vIYdvKDfI" aria-label="Rated 4.8 out of 5 from 85 Google reviews. Read the reviews on Google.">
         <span class="plaque-score" aria-hidden="true">4.8</span>
         <span class="plaque-body" aria-hidden="true">
@@ -65,10 +71,10 @@
         </span>
         <svg class="icon plaque-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
       </a>
+      </div>
     </div>
-  </div>
 
-  <div class="elevation" aria-hidden="true">
+    <div class="elevation" aria-hidden="true">
     <svg viewBox="0 0 400 150" preserveAspectRatio="xMidYMax meet" focusable="false">
       <g class="line">
         <path d="M0 140.5h400"/>
@@ -101,6 +107,7 @@
         <path d="M71 75h118M71 91h118M71 107h118M71 123h118"/>
       </g></g>
     </svg>
+    </div>
   </div>
   <div class="glass" aria-hidden="true">
     <span></span><span class="a"></span><span></span><span class="w"></span><span></span><span class="b"></span><span></span><span class="c"></span><span></span><span class="w"></span><span></span><span class="a"></span>
@@ -119,15 +126,15 @@
         </div>
         <div>
           <dt>Phone</dt>
-          <dd><a href="tel:+18472532886">(847) 253-2886</a>
-            <span class="tbd tbd-block"><b>TBD</b> Confirm this is the shop’s main number</span></dd>
+          <dd><a class="tel-inline" href="tel:+18472532886">(847) 253-2886</a>
+            <span class="tbd tbd-quiet tbd-block"><b>TBD</b> Confirm with Ted that this is the only number to list</span></dd>
         </div>
         <div>
           <dt>Hours</dt>
-          <dd><span class="tbd"><b>TBD</b> Hours not confirmed yet</span></dd>
+          <dd><span class="tbd tbd-strong"><b>TBD</b> Hours not confirmed yet</span></dd>
         </div>
       </dl>
-      <p class="note">Until hours are posted, please call before you come by.</p>
+      <p class="note note-ink">Until hours are posted, please call before you come by.</p>
       <a class="btn btn-outline" href="https://www.google.com/maps/dir/?api=1&amp;destination=400+W+Northwest+Hwy+Unit+D%2C+Arlington+Heights%2C+IL+60004"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>Open in Google Maps</a>
     </div>
   </section>
@@ -135,7 +142,7 @@
   <section class="section" id="reviews" aria-labelledby="trust-title">
     <div class="wrap">
       <div class="head"><h2 id="trust-title">Why people trust Ted</h2></div>
-      <p class="intro">Rated <strong>4.8 out of 5</strong> across <strong>85 Google reviews</strong>. These are the things customers bring up again and again.</p>
+      <p class="intro">These are the things customers bring up again and again in their Google reviews.</p>
       <ul class="trust">
         <li><h3>A straight answer</h3><p>Ted tells you what’s worth fixing and what can wait, even when the answer is “leave it alone.”</p></li>
         <li><h3>Fair labor rates</h3><p>Reasonable prices for the work, with no surprises when you pick up the car.</p></li>
@@ -149,22 +156,14 @@
   <section class="section" id="services" aria-labelledby="services-title">
     <div class="wrap">
       <div class="head"><h2 id="services-title">Services</h2></div>
+      <p class="intro">Not sure if Ted handles your repair? Call and ask.</p>
       <ul class="services">
         <li><svg class="icon svc-icon" aria-hidden="true"><use href="#i-oil"/></svg><span class="svc-name">Routine maintenance</span><span class="tbd"><b>TBD</b></span></li>
         <li><svg class="icon svc-icon" aria-hidden="true"><use href="#i-brake"/></svg><span class="svc-name">Brakes</span><span class="tbd"><b>TBD</b></span></li>
         <li><svg class="icon svc-icon" aria-hidden="true"><use href="#i-gauge"/></svg><span class="svc-name">Diagnostics and check engine lights</span><span class="tbd"><b>TBD</b></span></li>
         <li><svg class="icon svc-icon" aria-hidden="true"><use href="#i-engine"/></svg><span class="svc-name">Engine and transmission repair</span><span class="tbd"><b>TBD</b></span></li>
       </ul>
-      <p class="note">Service categories are placeholders until Ted confirms them. Not sure if Ted handles your repair? Call and ask.</p>
-
-      <h3 class="sub">Good to know</h3>
-      <dl class="facts facts-compact">
-        <div><dt>Makes and models</dt><dd><span class="tbd"><b>TBD</b></span></dd></div>
-        <div><dt>Body work</dt><dd><span class="tbd"><b>TBD</b></span></dd></div>
-        <div><dt>Towing</dt><dd><span class="tbd"><b>TBD</b></span></dd></div>
-        <div><dt>Warranty</dt><dd><span class="tbd"><b>TBD</b></span></dd></div>
-        <div><dt>Payment</dt><dd><span class="tbd"><b>TBD</b></span></dd></div>
-      </dl>
+      <p class="tbd tbd-block tbd-list"><b>TBD</b> Confirm the service list, makes and models, body work, towing, warranty and payment methods with Ted.</p>
     </div>
   </section>
 
@@ -173,15 +172,15 @@
       <div class="head"><h2 id="shop-title">The shop</h2></div>
       <div class="photos">
         <figure>
-          <div class="frame" role="img" aria-label="Photo placeholder: storefront">Storefront photo<span class="tbd"><b>TBD</b></span></div>
-          <figcaption>400 W Northwest Hwy, Unit D</figcaption>
+          <div class="frame" role="img" aria-label="Photo placeholder: storefront">Storefront photo here<span class="tbd"><b>TBD</b></span></div>
+          <figcaption>Storefront</figcaption>
         </figure>
         <figure>
-          <div class="frame" role="img" aria-label="Photo placeholder: inside the shop">Inside the shop<span class="tbd"><b>TBD</b></span></div>
-          <figcaption>The service bays</figcaption>
+          <div class="frame" role="img" aria-label="Photo placeholder: inside the shop">Shop interior here<span class="tbd"><b>TBD</b></span></div>
+          <figcaption>Service bays</figcaption>
         </figure>
         <figure>
-          <div class="frame" role="img" aria-label="Photo placeholder: Ted">Photo of Ted<span class="tbd"><b>TBD</b></span></div>
+          <div class="frame" role="img" aria-label="Photo placeholder: Ted">Photo of Ted here<span class="tbd"><b>TBD</b></span></div>
           <figcaption>Ted</figcaption>
         </figure>
       </div>
@@ -203,15 +202,19 @@
   </section>
 </main>
 
+  <div class="glass glass-foot" aria-hidden="true">
+    <span></span><span class="a"></span><span></span><span class="w"></span><span></span><span class="b"></span><span></span><span class="c"></span><span></span><span class="w"></span><span></span><span class="a"></span>
+    <span></span><span class="b"></span><span></span><span class="w"></span><span></span><span class="c"></span><span></span><span class="a"></span><span></span><span class="w"></span><span></span><span class="b"></span>
+  </div>
 <footer class="footer">
   <div class="wrap">
-    <p><span translate="no">Ted’s Auto Repair</span> · 400 W Northwest Hwy, Unit D, Arlington Heights, IL 60004 · <a href="tel:+18472532886">(847) 253-2886</a></p>
+    <p><span translate="no">Ted’s Auto Repair</span> · 400 W Northwest Hwy, Unit D, Arlington Heights, IL 60004 · <a class="tel-inline" href="tel:+18472532886">(847) 253-2886</a></p>
   </div>
 </footer>
 
 <div class="dock" id="dock">
-  <a class="btn btn-gold" href="tel:+18472532886"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>Call Ted: (847) 253-2886</a>
-  <a class="btn btn-dock-map" href="https://www.google.com/maps/dir/?api=1&amp;destination=400+W+Northwest+Hwy+Unit+D%2C+Arlington+Heights%2C+IL+60004" aria-label="Get directions"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg></a>
+  <a class="btn btn-gold" href="tel:+18472532886"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>Call (847) 253-2886</a>
+  <a class="btn btn-dock-map" href="https://www.google.com/maps/dir/?api=1&amp;destination=400+W+Northwest+Hwy+Unit+D%2C+Arlington+Heights%2C+IL+60004" ><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>Map</a>
 </div>
 
 <script src="main.js" defer></script>

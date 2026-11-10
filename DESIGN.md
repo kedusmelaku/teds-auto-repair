@@ -31,13 +31,14 @@ The page is built like a Prairie School building on a Midwestern commercial stri
 - **Art-glass band**: leaded grid with colored squares and wheel circles. Closes the hero and sits above the footer.
 - **Section head**: Jost heading with a 2px rule running to the right edge of the screen.
 - **Facts list**: uppercase Jost labels, hairline rows.
-- **TBD placeholder** `.tbd`: rust square, "TBD" label, italic plain-language reason. Variants: `tbd-strong` (hours), `tbd-quiet` (internal notes), `tbd-light` (on sage).
+- **TBD placeholder** `.tbd`: rust square, "TBD" label. Variant: `tbd-strong` (hours). Placeholders are short labels only, never notes to the owner.
 - **Photo slot** `.frame`: square on phones, 4:3 from 760px, with an inner trim line and "... here / TBD". Swap for `<img width height alt loading="lazy">` when photos arrive.
 - **Buttons**: square corners, 54px tall. Gold (call), outlined (directions), umber (reviews), pale on sage (schedule).
 - **Dock**: fixed umber bar on phones with Call and a labelled Map button. Hidden (and `inert`) while the hero Call button is visible; hidden on desktop.
 
 ## Rules
 - Square corners everywhere; only the wheel circles are round.
+- The name is the shop's, not a person's: copy speaks as "the shop" or "we", never about Ted as an individual.
 - No em dashes, no quoted reviews, no prices, no unconfirmed claims. Unknowns stay visible TBDs.
 - Avoid auto clichés: chrome, flames, racing stripes, carbon fiber, mechanic stock photos, blue tech gradients.
 - Focus ring 3px: gold on umber, rust on stone, pale on sage.

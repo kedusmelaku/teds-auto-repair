@@ -423,12 +423,7 @@ a:hover { text-decoration-thickness: 2px; }
 }
 .tbd-block { display: flex; align-items: baseline; margin-top: 4px; }
 .tbd-strong { font-size: 1.05rem; font-style: normal; color: var(--ink); }
-.tbd-quiet { font-size: 0.875rem; }
-.tbd-list { margin: 18px 0 0; max-width: 60ch; }
 .tel-inline { display: inline-block; padding: 11px 0; margin: -11px 0; }
-.tbd-light { display: flex; color: var(--on-sage-soft); margin: 22px 0 0; }
-.tbd-light b { color: var(--on-sage); }
-.tbd-light b::before { background: var(--gold); }
 
 .note-ink { color: var(--ink) !important; font-size: 1.05rem !important; }
 .note {
@@ -487,7 +482,6 @@ figure { margin: 0; }
   text-align: center;
 }
 figcaption { margin-top: 6px; font-size: 0.9rem; color: var(--ink-soft); }
-.story p { margin: 0; }
 
 /* Call to schedule: sage field */
 .schedule {

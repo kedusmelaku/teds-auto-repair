@@ -27,5 +27,5 @@ Then open http://localhost:8000.
 - Confirm (847) 253-2886 is the only number to list (an older directory shows another number, not shown on the site)
 - Service list, makes and models, body work, towing, warranty, payment methods
 - Appointments, walk-ins, or both
-- Ted's story and the year the shop opened
-- Photos: storefront, shop interior, Ted
+- Year the shop opened
+- Photos: storefront, shop interior, team at work
